@@ -1,122 +1,123 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  #head1 {
-    list-style: none;
-    font-family: "Protest Revolution", sans-serif;
-    font-size: 3rem;
-    margin: 0.5rem;
-    color: rgba(255, 4, 4, 0.82);
-    text-shadow: 1rem 1rem 0.5rem black;
-  }
-  .container {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    overflow-x: none;
-    background-color: #1f1f1f;  
-    flex-direction: column;
-  }
-  #sec1 {
-    width: 77rem;
-    background-color: #191919;
-    height: 5.5rem;
-  }
-  #secid {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-between;
-    padding: 0.1rem;
-  }
-  #items {
-    align-self: first baseline;
-    margin-top: 4rem;
-    margin-right: 2rem;
-    display: flex;
-    gap: 0.4rem;
-  }
-  a {
-    text-decoration: none;
-    color: rgba(255, 4, 4, 0.82);
-  }
-  .footerbox{
-    color: white;
-    background-color: #191919;    
-    text-align: center;
-    height: 5rem;
-    padding: 3em;
-  }
-  .containerbox{
-    width: 77rem;
-    height: 100rem;
-    border: 2px solid rgba(255, 4, 4, 0.82);;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-  }
-  .rec1{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2rem;
-  }
-  .rec2{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2rem;
-  }
-  .rightbox{
-    position: relative;
-  }
-  .rightbox img{
-    height: 20rem;
-    border-radius: 2rem;
-    box-shadow: 1rem 1rem 1rem black;
-    
-  
-  }
-  .rightbox:hover{
-    transition: all 0.2s linear 0s;
-    transform: scale(1.1);
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#head1 {
+  list-style: none;
+  font-family: "Protest Revolution", sans-serif;
+  font-size: 3rem;
+  margin: 0.5rem;
+  color: rgba(255, 4, 4, 0.82);
+  text-shadow: 1rem 1rem 0.5rem black;
+}
+.container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  overflow-x: none;
+  background-color: #1f1f1f;  
+  flex-direction: column;
+}
+#sec1 {
+  /* width: 77rem; */
+  background-color: #191919;
+  height: 5.5rem;
+}
+#secid {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0.1rem;
+}
+#items {
+  align-self: first baseline;
+  margin-top: 4rem;
+  margin-right: 2rem;
+  display: flex;
+  gap: 0.4rem;
+}
+a {
+  text-decoration: none;
+  color: rgba(255, 4, 4, 0.82);
+}
+.footerbox{
+  color: white;
+  background-color: #191919;    
+  text-align: center;
+  height: 5rem;
+  padding: 3em;
+}
+.containerbox{
+  /* width: 77rem; */
+  /* height: 100rem; */
+  border: 2px solid rgba(255, 4, 4, 0.82);;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.rec1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+.rec2{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+}
+.rightbox{
+  position: relative;
+  /* overflow: hidden; */
 
-  .leftbox{
-    color: rgba(255, 255, 255, 0.788);
-    font-size: small;
-    font-family: "Caveat", cursive;
-  }
-  hr{
-    color: white;
-    width: 55rem;
-  }
-  h2{
-    font-size: 3rem;
-  }
-  h3{
-    font-size: 2rem;
-  }
-  .rightbox .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.436);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: aliceblue;
-    font-size: 1.3rem;
-    border-radius: 2rem;
-    opacity: 0;
-    transition: all 0.2s linear 0s;
-  }
-  .rightbox:hover .overlay{
-    opacity: 1;
-  }
- 
+}
+.rightbox img{
+  height: 20rem;
+  border-radius: 2rem;
+  box-shadow: 1rem 1rem 1rem black;
+  
+
+}
+.rightbox:hover{
+  transition: all 0.2s linear 0s;
+  transform: scale(1.1);
+}
+
+.leftbox{
+  color: rgba(255, 255, 255, 0.788);
+  font-size: small;
+  font-family: "Caveat", cursive;
+}
+hr{
+  color: white;
+  width: 70%;
+}
+h2{
+  font-size: 3rem;
+}
+h3{
+  font-size: 2rem;
+}
+.rightbox .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.436);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  font-size: 1.3rem;
+  border-radius: 2rem;
+  opacity: 0;
+  transition: all 0.2s linear 0s;
+}
+.rightbox:hover .overlay{
+  opacity: 1;
+}
